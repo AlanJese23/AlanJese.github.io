@@ -29,7 +29,10 @@ h2 {
     color: #fffffff1;
     font-size: 18px;
 }
-
+h3 {
+    color: #242222f1;
+    font-size: 18px;
+}
 p {
     color: #555;
     line-height: 1.5;
