@@ -15,30 +15,38 @@
         </a>
     </header>
 
-    <section style="padding-left: 400px;padding-right: 400px;">
+    <section>
         <h3>A Novel Cortical Plate Segmentation Model for High-resolution Fetal Brain MRI</h3>
         <p> Cortical thickness is a crucial feature which reflects various aspects of brain structure and function. 
             In the fetal brain, the measurement of cortical thickness is sensitive to the segmentation of cortical plate (CP), 
             because of the low resolution of magnetic resonance imaging (MRI) due to the relatively small brain size. 
             High-resolution MRI data provides detailed delineation of CP enabling accurate cortical thickness measurement. 
         </p>
-
+    </section>
+    <section style="display: flex; justify-content: center;">
         <figure>
-            <img src="Abs_Figure_1.drawio.png" alt="Figure 1. Flowchart to generate the training dataset which is subsequently employed in the high-resolution CP segmentation model (Hong et al., 2020). The red boxes denote the previous dataset at 0.86 mm resolution, the yellow boxes indicate the intermediate output, and the green boxes represent the final training data at 0.5mm resolution.
+            <img src="Abs_Figure_1.drawio.png" alt="Figure 1. Flowchart to generate the training dataset which is subsequently employed in the high-resolution CP segmentation model (Hong et al., 2020).
             " height="500px" >
         </figure>
+    </section>
+    <section>
         <p>   The main objective of the study is to train a new model to segment CP in high-resolution MRIs based on our 
             previous model and a new training dataset.
         </p>
+    </section>
+    <section>
         <figure>
             <img src="Abs_Figure_2_2.jpg" alt= "Figure 2. Visual inspection between low and high resolution CP segmentation model. The segmentation  using our high-resolution CP segmentation model (right side) yields good segmentation quality and shows better delineation of cortical structures compared to 0.86mm." height="500px" >
         </figure>
+    </section>
+    <section>
         <p>
             Currently, we trained 64 of 116 subjects achieving validation Dice coefficients of 0.946 for sagittal, 0.940 for coronal, and 0.937 for axial view. The visual inspection of the CP segmentation output demonstrates the potential of the high-resolution CP segmentation model (Figure 2). The next step is to correct the segmentation for the remaining data and train the model for final results.
         </p>
 
-        <!-- Add more projects and descriptions here -->
     </section>
+
+
 
     <footer>
         <p>Last updated January 2024</p>
