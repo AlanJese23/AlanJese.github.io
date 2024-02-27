@@ -38,6 +38,9 @@ p {
     line-height: 1.5;
 }
 
+figure {
+    margin: auto; /* Center the figure */
+}
 footer {
     background-color: #444;
     color: #fff;
