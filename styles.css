@@ -44,10 +44,10 @@ figure {
 footer {
     background-color: #444;
     color: #ffffffe8;
-    padding: 10px;
+    padding: 8px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 50%;
 }
 .project-link {
     display: inline-block; /* Hace que los enlaces se muestren en línea */
