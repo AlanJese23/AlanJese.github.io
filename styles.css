@@ -16,6 +16,8 @@ header {
 section {
     padding: 20px;
     text-align: justify;
+    max-width: 800px; /* Ancho máximo para el contenido */
+    margin: 0 auto; /* Centra horizontalmente */
 }
 
 h1 {
