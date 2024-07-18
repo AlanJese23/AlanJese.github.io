@@ -2608,10 +2608,7 @@ input, select, textarea {
 		opacity: .75; /* Inicialmente invisible */
 		transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
 	}
-	/* When the image is loaded, set the opacity to 1 */
-	#header.loaded {
-		opacity: 1;
-	}
+
 		#header > * {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;

@@ -2608,10 +2608,6 @@ input, select, textarea {
 		opacity: .75; /* Inicialmente invisible */
 		transition: background-image 0.5s ease-in-out; /* Transición de opacidad */
 	}
-	/* Pseudoclase para hacer visible al hover */
-	#header:hover {
-		opacity: 1; /* Hacer visible al pasar el cursor */
-	}
 
 		#header > * {
 			-moz-flex-shrink: 0;
