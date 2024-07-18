@@ -2606,7 +2606,7 @@ input, select, textarea {
 		top: 0;
 		width: 35%;
 		opacity: 0; /* Inicialmente invisible */
-		transition: opacity 0.5s ease; /* Transición de opacidad */
+		transition: background-image 0.5s ease-in-out; /* Transición de opacidad */
 	}
 	/* Pseudoclase para hacer visible al hover */
 	#header:hover {
