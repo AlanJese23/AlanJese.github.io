@@ -2606,11 +2606,11 @@ input, select, textarea {
 		top: 0;
 		width: 35%;
 		opacity: 0; /* Inicialmente invisible */
-		transition: background-image 0.5s ease-in-out; /* Transición de opacidad */
+		transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
 	}
-	/* Pseudoclase para hacer visible al hover */
-	#header:hover {
-		opacity: 1; /* Hacer visible al pasar el cursor */
+	/* When the image is loaded, set the opacity to 1 */
+	#header.loaded {
+		opacity: 1;
 	}
 		#header > * {
 			-moz-flex-shrink: 0;
