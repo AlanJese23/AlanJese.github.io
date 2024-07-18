@@ -2605,8 +2605,8 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-		opacity: .35; /* Inicialmente invisible */
-		transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+		opacity: 10%; /* Inicialmente invisible */
+		
 	}
 
 		#header > * {
@@ -2626,15 +2626,15 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #24202000;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #363333;
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(31, 28, 28, 0.021);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
