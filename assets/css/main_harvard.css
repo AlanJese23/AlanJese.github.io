@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/brain.png"), url("../../images/brain.png");
+		background-image: url("images/harvard_logo.png"), url("../../images/havard_logo.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2612,7 +2612,6 @@ input, select, textarea {
 	#header:hover {
 		opacity: 1; /* Hacer visible al pasar el cursor */
 	}
-
 		#header > * {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
@@ -3069,8 +3068,6 @@ input, select, textarea {
 				top: auto;
 				width: 100%;
 				display: block;
-				opacity: 0; /* Inicialmente invisible */
-				transition: opacity 0.5s ease; /* Transición de opacidad */
 			}
 
 				#header h1 {
@@ -3086,7 +3083,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/brain.png"), url("../../images/brain.png");
+				background-image: url("images/harvard_logo.png"), url("../../images/havard_logo.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
