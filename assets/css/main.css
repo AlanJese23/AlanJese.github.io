@@ -2062,6 +2062,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			pointer-events: none; /* Evitar que se puedan hacer clics en la superposición */
+			z-index: -1; /* Mantener el overlay detrás del enlace */
 		}
 
 		.image.thumb {
@@ -2072,6 +2073,7 @@ input, select, textarea {
 		.image.thumb img {
 			max-width: 100%; /* Asegúrate de que la imagen no crezca más allá de su contenedor */
 			height: auto;
+			z-index: 1; 
 		}
 
 			.image.thumb:after {
@@ -2097,6 +2099,7 @@ input, select, textarea {
 				top: 50%;
 				white-space: nowrap;
 				pointer-events: none; /* Asegúrate de que no se pueda interactuar con este pseudo-elemento */
+				z-index: -1; /* Mantener detrás del enlace */
 			}
 			
 			.image.thumb:hover:after {
